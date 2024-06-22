@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="style.css" rel="StyleSheet">
+    <script src="function.js"></script>
+    <title>ROCK PAPER SCISSOR</title>
+</head>
+<body>
+    <h1>ROCK PAPER SCISSOR</h1>
+    <div class="container">
+        <div id="humanimagecont" class="humanimagecont"></div>
+        <div class="humanside">
+            <button id="R" class="button" onclick="rock()">ROCK</button>
+            <button id="P" class="button" onclick="paper()">PAPER</button>
+            <button id="S" class="button" onclick="scissor()">SCISSOR</button>
+        </div>
+        <div id="imagecont" class="botimagecont"></div>
+        <div class="botcont">
+            <p id="bot"></p>
+        </div>
+        <div class="play"><button class="button" onclick="play()">PLAY</button></div> 
+        <div class="versus">VS.</div>   
+        <div class="winner1"><p id="w1">PLAYER 1</p></div>
+        <div class="winner2"><p id="w2">PLAYER 2</p></div>
+        <input type="hidden" id="humanChoice" value="">
+    </div>
+    
+</body>
+</html>
